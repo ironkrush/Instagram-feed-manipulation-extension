@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Customizer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Instagram Customizer</h1>
+    <form id="interestForm">
+      <p>Select your fields of interest:</p>
+      <div class="interests">
+        <label><input type="checkbox" name="interest" value="photography"> Photography</label><br>
+        <label><input type="checkbox" name="interest" value="travel"> Travel</label><br>
+        <label><input type="checkbox" name="interest" value="food"> Food</label><br>
+      </div>
+      <button type="submit">Customize Feed</button>
+    </form>
+    <div id="statusMessage"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
